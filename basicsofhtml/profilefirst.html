@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Supreme Delight Pizza</title>
+</head>
+<body>
+
+    <header>
+        <h1>Supreme Delight Pizza</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <article>
+                <h2>About Us</h2>
+                <p>We are a 24/7 pizza joint offering gourmet pizzas with unique flavors, fresh ingredients, and unbeatable hygiene. Loved by foodies and families alike!</p>
+            </article>
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Pizza</th>
+                        <th>Size</th>
+                        <th>Price</th>
+                        <th>Available</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Spicy Paneer Blast</td>
+                        <td>Large</td>
+                        <td>₹399</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Chicken BBQ Crunch</td>
+                        <td>Medium</td>
+                        <td>₹349</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Sweet Pineapple Punch</td>
+                        <td>Small</td>
+                        <td>₹249</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="reviews">
+            <h2>What Our Customers Say</h2>
+            <article>
+                <h3>Aarav R.</h3>
+                <p>"Best pizza in town! Friendly staff and great ambience."</p>
+            </article>
+            <article>
+                <h3>Ananya P.</h3>
+                <p>"Love the discounts and late-night service. 10/10!"</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Watch How We Make Our Pizzas</h2>
+            <iframe width="350" height="200" src="https://www.youtube.com/embed/VIDEO_ID" title="Pizza Making" allowfullscreen></iframe>
+        </aside>
+
+        <section>
+            <h2>Listen to Our Theme Jingle</h2>
+            <audio controls>
+                <source src="theme-jingle.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+                <label for="fav">Favourite Pizza Type:</label><br>
+                <select id="fav" name="fav">
+                    <option value="paneer">Paneer</option>
+                    <option value="chicken">Chicken</option>
+                    <option value="pineapple">Pineapple</option>
+                </select><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 Supreme Delight Pizza. All rights reserved.</p>
+        <p><a href="mailto:contact@supremedelight.com">Email Us</a></p>
+    </footer>
+
+</body>
+</html>
